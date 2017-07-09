@@ -1,21 +1,35 @@
-import React, { Component } from 'react';
+import React, { PropTypes } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile';
 
-class App extends Component {
-  render() {
+const App = props => {
+const profileData = props.jsonObj.basics;
+
+
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <div className="container">
+             <div className="row">
+               <aside className="col-md-4">
+                 <div className="inner">
+                   <Profile profileData={profileData} />
+                 </div>
+               </aside>
+               <main className="col-md-8">
+                 <div className="inner">
+                   {/* <About aboutData={aboutData} />
+                   <Work workData={workData} />
+                   <Skills skillsData={skillsData} />
+                   <Education educationData={educationData} /> */}
+                 </div>
+               </main>
+             </div>
+           </div>
     );
-  }
+
+}
+App.propTypes = {
+    jsonObj: PropTypes.object.isRequired
 }
 
 export default App;

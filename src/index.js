@@ -4,5 +4,10 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+const json = require('./resume.json');
+
+
+
+ReactDOM.render(<App jsonObj={json} />, document.getElementById('root'));
 registerServiceWorker();
