@@ -2,12 +2,18 @@ import React, { PropTypes } from 'react';
 import FontAwesome from 'react-fontawesome';
 import './App.css';
 import Profile from './components/Profile';
-
+import Summary from './components/Summary';
+import Work from './components/Work';
+import TechnicalSkills from './TechnicalSkills';
+import Education from './Education';
 
 
 const App = props => {
 const profileData = props.jsonObj.basics;
-
+const summaryData = profileData.summary;
+const workData = props.jsonObj.work;
+const skillsData = props.jsonObj.skills;
+const educationData = props.jsonObj.education;
 
     return (
       <div className="container">
@@ -19,10 +25,10 @@ const profileData = props.jsonObj.basics;
                </aside>
                <main className="col-md-8">
                  <div className="inner">
-                   {/* <About aboutData={aboutData} />
-                   <Work workData={workData} />
-                   <Skills skillsData={skillsData} />
-                   <Education educationData={educationData} /> */}
+                <strong><Summary summaryData={summaryData} /></strong>
+                <Work workData={workData} />
+                   <TechnicalSkills skillsData={skillsData} />
+                   <Education educationData={educationData} />
                  </div>
                </main>
              </div>
