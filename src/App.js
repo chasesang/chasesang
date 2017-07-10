@@ -1,7 +1,9 @@
 import React, { PropTypes } from 'react';
-import logo from './logo.svg';
+import FontAwesome from 'react-fontawesome';
 import './App.css';
 import Profile from './components/Profile';
+
+
 
 const App = props => {
 const profileData = props.jsonObj.basics;
