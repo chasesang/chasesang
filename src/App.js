@@ -4,8 +4,8 @@ import './App.css';
 import Profile from './components/Profile';
 import Summary from './components/Summary';
 import Work from './components/Work';
-import TechnicalSkills from './TechnicalSkills';
-import Education from './Education';
+import TechnicalSkills from './components/TechnicalSkills';
+import Education from './components/Education';
 
 
 const App = props => {
@@ -24,11 +24,11 @@ const educationData = props.jsonObj.education;
                  </div>
                </aside>
                <main className="col-md-8">
-                 <div className="inner">
-                <strong><Summary summaryData={summaryData} /></strong>
+                <div className="inner">
+                <Summary summaryData={summaryData} />
                 <Work workData={workData} />
-                   <TechnicalSkills skillsData={skillsData} />
-                   <Education educationData={educationData} />
+                <TechnicalSkills skillsData={skillsData} />
+                <Education educationData={educationData} />
                  </div>
                </main>
              </div>

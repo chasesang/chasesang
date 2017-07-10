@@ -4,120 +4,45 @@
     "label": "P.Eng / Junior Developer",
     "picture": "./Profile.jpg",
     "email": "chase.sang@gmail.com",
-    "phone": "0403933281",
+    "phone": "4038700889",
     "website": "http://",
     "summary": "A full-stack web  developer with a strong technical background in engineering, and 8 years of project management experience",
     "location": {
-      "address": "Sutherland",
-      "postalCode": "2232",
+
       "city": "Vancouver",
-      "countryCode": "Canada",
-      "region": "BC"
+      "provice": "BC",
+      "country": "Canada"
+
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "jonbloomer",
-        "url": ""
+        "network": "facebook",
+        "username": "chasesang"
       },
       {
         "network": "Github",
-        "username": "freaksauce",
-        "url": ""
+        "username": "chasesang"
       }
     ]
   },
   "work": [
     {
-      "company": "IAG",
-      "position": "Lead Front End Developer",
-      "website": "http://nrma.com.au",
-      "startDate": "2016-08-01",
-      "endDate": "",
-      "summary": "I am currently working as a lead front end developer on a small React team building Insurance applications and I am across multiple applications that have been built or are being built using our new development stack. IAG are keen to utilise the latest front end technologies and we have had great success as a team using React/Redux running on a Node Express server and using an API backend architecture to access the various IAG systems. We are striving to increase the quality of our projects with good test coverage and code reviews and improving our continuous integration practices.",
+      "company": "Shell Canada",
+      "position": "Process Engineer, P.Eng",
+      "startDate": "2013-11-01",
+      "endDate": "2016-09-01",
+      "summary": "Monitored and solved process issues from industrial plants to ensure maximum optimal uptime of facility. Directed and successfully executed capital projects ranging from $100K to $5 million. Developed engineering tools and procedures for Foothills region, which effectively reduced manual workload by 66% and improved calculation accuracy.",
       "highlights": []
     },
     {
-      "company": "Pacific Magazines",
-      "position": "Senior Front End Developer",
-      "website": "",
-      "startDate": "2016-03-01",
-      "endDate": "2016-08-01",
-      "summary": "During my time at Pacific Magazines I worked on a couple of large React applications using React/Redux to integrate with a .NET MVC Application.",
-      "highlights": []
-    },
-    {
-      "company": "IAG",
-      "position": "UI Developer",
-      "website": "http://nrma.com.au",
-      "startDate": "2014-11-01",
-      "endDate": "2016-03-01",
-      "summary": "Working as a UI developer as part of IAG Labs developing html/css/javascript solutions to integrate with the backend systems for the online quoting applications.",
-      "highlights": []
-    },
-    {
-      "company": "Reactive",
-      "position": "Front End Developer",
-      "website": "",
-      "startDate": "2014-09-01",
-      "endDate": "2014-11-30",
-      "summary": "At Reactive I was responsible for working with a .NET team to deliver templates using javascript/sass/grunt and handlebars. I also had exposure to TFS for source control.",
-      "highlights": []
-    },
-    {
-      "company": "City of Sydney Council",
-      "position": "Front End Developer",
-      "website": "",
-      "startDate": "2014-05-01",
-      "endDate": "2014-08-31",
-      "summary": "For City of Sydney I was a Front End Developer working with Wordpress on multiple key websites such as Sydneynewyearseve.com.au. All code was developed using LESS and Bootstrap for a consistent responsive interface.",
-      "highlights": []
-    },
-    {
-      "company": "Self Employed",
-      "position": "Freelance Web Developer",
-      "website": "",
-      "startDate": "2010-03-01",
-      "endDate": "2014-05-01",
-      "summary": "As a freelance web developer I mainly concentrated on building bespoke CMS solutions for agencies using Wordpress. As a full stack developer my responsibilities included setting up hosting, domains, databases and delivering an easy to use custom Wordpress theme with Advanced Custom Fields and toward the latter end of my freelance venture, responsive layouts.",
-      "highlights": []
-    },
-    {
-      "company": "Soap Creative",
-      "position": "Senior Web Developer",
-      "website": "http://soapcreative.com",
-      "startDate": "2006-07-01",
-      "endDate": "2010-03-01",
-      "summary": "At SOAP I was required to carry out full stack duties across a broad range of projects including php/MySQL with front end technologies ranging from html/css to Flash.",
-      "highlights": []
-    },
-    {
-      "company": "M&C Saatchi",
-      "position": "Web Developer",
-      "website": "http://mcsaatchi.com.au/",
-      "startDate": "2006-05-01",
-      "endDate": "2006-08-31",
-      "summary": "Flash development with xml & amfphp for php/mysql integration.",
-      "highlights": []
-    },
-    {
-      "company": "Wunderman/GPY&R",
-      "position": "Web Developer",
-      "website": "http://www.gpyr.com.au/",
-      "startDate": "2005-07-01",
-      "endDate": "2006-05-01",
-      "summary": "Flash developer using xml & amfphp, html/css with php/mysql backend integration and CMS development.",
-      "highlights": []
-    },
-    {
-      "company": "Federal Publishing Company",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2004-07-01",
-      "endDate": "2005-03-31",
-      "summary": "Lead web developer on homehound.com.au, html/css/javascript development with php & SQL server integration.",
+      "company": "Shell Canada",
+      "position": "Operations Engineer",
+      "startDate": "2010-01-04",
+      "endDate": "2013-10-31",
+      "summary": "Responsibly provided technical support to safely and efficiently operate in order to maximize the production. Led initiatives to optimize LPG production, which resulted in approx. $2 million/year of revenue and energy savings.",
       "highlights": []
     }
+
   ],
   "volunteer": [],
   "education": [
