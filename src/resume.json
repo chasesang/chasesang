@@ -54,7 +54,16 @@
       "endDate": "1998-07-01",
       "gpa": "",
       "courses": []
-    }
+    },
+    {
+        "institution": "Dalhousie University",
+        "area": "Music",
+        "studyType": "Bachelor of Chemical Engineering (hons)",
+        "startDate": "1994-08-01",
+        "endDate": "1998-07-01",
+        "gpa": "",
+        "courses": []
+      }
   ],
   "awards": [],
   "publications": [],
