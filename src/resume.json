@@ -65,7 +65,18 @@
       "courses": []
       }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Shell Special Recognition Award",
+      "name": "Turnaround Safety",
+      "year": "May 2015"
+    },
+    {
+      "title": "Shell VP Innovation Award",
+      "name": "Process Control",
+      "year": "May 2014"
+    },
+  ],
   "publications": [],
   "skills": [
     {
