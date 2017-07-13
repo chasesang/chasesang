@@ -5,6 +5,7 @@ const Skills = props => {
       return (<li key={index}><span className="label label-success">{item}</span></li>)
     });
 
+
   	return (
   	  <section className="skills">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-code"></i> Skills</h2>

@@ -10,6 +10,8 @@ const Work = props => {
         return workItems;
     }
 
+
+
     return (
       <section className="work">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Work experience</h2>
