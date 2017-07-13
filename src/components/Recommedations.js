@@ -21,5 +21,4 @@ const Education = props => {
       </section>
   	)
 };
-
-export default Education;
+export default Recommendations;
