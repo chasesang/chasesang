@@ -7,14 +7,12 @@ import Work from './components/Work';
 import TechnicalSkills from './components/TechnicalSkills';
 import Education from './components/Education';
 
-
 const App = props => {
 const profileData = props.jsonObj.basics;
 const summaryData = profileData.summary;
 const workData = props.jsonObj.work;
 const skillsData = props.jsonObj.skills;
 const educationData = props.jsonObj.education;
-
     return (
       <div className="container">
              <div className="row">
