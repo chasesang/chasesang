@@ -6,6 +6,9 @@ import Summary from './components/Summary';
 import Work from './components/Work';
 import TechnicalSkills from './components/TechnicalSkills';
 import Education from './components/Education';
+import { BrowserRouter as Router } from 'react-router-dom'
+
+
 
 const App = props => {
 const profileData = props.jsonObj.basics;
