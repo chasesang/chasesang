@@ -21,8 +21,6 @@ const educationData = props.jsonObj.education;
                  <div className="inner">
                    <Profile profileData={profileData} />
                  </div>
-
-
                 <div className="inner">
                 <Summary summaryData={summaryData} />
                 <Work workData={workData} />
