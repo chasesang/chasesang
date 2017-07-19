@@ -27,11 +27,9 @@ const educationData = props.jsonObj.education;
                 <TechnicalSkills skillsData={skillsData} />
                 <Education educationData={educationData} />
                  </div>
-
              </div>
            </div>
     );
-
 }
 App.propTypes = {
     jsonObj: PropTypes.object.isRequired
