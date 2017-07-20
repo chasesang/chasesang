@@ -6,7 +6,7 @@ import Summary from './components/Summary';
 import Work from './components/Work';
 import TechnicalSkills from './components/TechnicalSkills';
 import Education from './components/Education';
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const App = props => {
 const profileData = props.jsonObj.basics;
@@ -17,16 +17,19 @@ const educationData = props.jsonObj.education;
     return (
       <div className="container">
              <div className="row">
-
+               <aside className="col-md-4">
                  <div className="inner">
                    <Profile profileData={profileData} />
                  </div>
+               </aside>
+               <main className="col-md-8">
                 <div className="inner">
                 <Summary summaryData={summaryData} />
                 <Work workData={workData} />
                 <TechnicalSkills skillsData={skillsData} />
                 <Education educationData={educationData} />
                  </div>
+               </main>
              </div>
            </div>
     );
