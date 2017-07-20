@@ -16,6 +16,8 @@ const skillsData = props.jsonObj.skills;
 const educationData = props.jsonObj.education;
     return (
       <div className="container">
+        <div className="row"> <h1>Chase Sang</h1> </div>
+        <h2> About |  Engineering  |  Web Development  |  Hangouts  |  Destinations  |  Fun  | Thought Sketches </h2>  
              <div className="row">
                <aside className="col-md-4">
                  <div className="inner">
