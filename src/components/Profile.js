@@ -8,8 +8,8 @@ const Profile = props => {
         <h1 className="text-center">{profileObj.name}</h1>
 
         <h2 className="text-center">{profileObj.label}
-            <div className="divider"></div>
-        <p>Never stop learning, because life never stops teaching.</p></h2>
+          
+        </h2>
           <div className="divider"></div>
 
         <ul className="list-unstyled contact-links text-center">
@@ -30,7 +30,7 @@ const Profile = props => {
             </li>
         </ul>
         <div className="divider"></div>
-
+<p>Never stop learning, because life never stops teaching.</p>
     </div>
 };
 
