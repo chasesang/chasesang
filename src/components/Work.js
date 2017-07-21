@@ -1,10 +1,15 @@
 import React from 'react';
 import WorkItem from './WorkItem';
 
+const json = require('../resume.json');
+
+
+const workData =json.work;
+
 const Work = props => {
     const getWorkExperience = () => {
         const workItems = [];
-        props.workData.forEach((val, index) => {
+      workData.forEach((val, index) => {
           workItems.push(<WorkItem key={index} workItemData={val}/>);
         })
         return workItems;
