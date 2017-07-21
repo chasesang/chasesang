@@ -17,19 +17,21 @@ const skillsData = props.jsonObj.skills;
 const educationData = props.jsonObj.education;
     return (
       <div className="container">
-        <div className="row"> <h1>Chase Sang</h1> </div>
-        <h2> About |  Engineering  |  Web Development  |  Hangouts  |  Destinations  |  Fun  | Thought Sketches </h2>
+
         <Router>
           <div>
             <ul className="nav navbar-nav">
-              <li><Link to="/">Summary</Link></li>
-              <li><Link to="/about">Profile</Link></li>
-              <li><Link to="/topics">Work</Link></li>
+              <li><Link to="/">About</Link></li>
+              <li><Link to="/engineering">Engineering</Link></li>
+              <li><Link to="/web">Web Development</Link></li>
+              <li><Link to="/hangouts">Hangouts</Link></li>
+              <li><Link to="/world">Word</Link></li>
+              <li><Link to="/thought">Thought Sketches</Link></li>
             </ul>
 
             <hr/>
 
-            <Route exact path="/summary" component={Summary}/>
+            <Route exact path="/" component={Summary}/>
             <Route path="/about" component={Profile}/>
             <Route path="/topics" component={Work}/>
           </div>
