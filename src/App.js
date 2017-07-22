@@ -32,8 +32,8 @@ const educationData = props.jsonObj.education;
             <hr/>
 
             <Route exact path="/" component={Summary}/>
-            <Route path="/about" component={Profile}/>
-            <Route path="/topics" component={Work}/>
+            <Route path="/engineering" component={Profile}/>
+            <Route path="/web" component={Work}/>
           </div>
         </Router>
 
