@@ -28,9 +28,7 @@ const educationData = props.jsonObj.education;
               <li><Link to="/world">Word</Link></li>
               <li><Link to="/thought">Thought Sketches</Link></li>
             </ul>
-
             <hr/>
-
             <Route exact path="/" component={Summary}/>
             <Route path="/engineering" component={Profile}/>
             <Route path="/web" component={Work}/>
