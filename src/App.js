@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import FontAwesome from 'react-fontawesome';
 import './App.css';
+import About from './components/About';
 import Profile from './components/Profile';
 import Summary from './components/Summary';
 import Work from './components/Work';
@@ -29,7 +30,7 @@ const educationData = props.jsonObj.education;
               <li><Link to="/thought">Thought Sketches</Link></li>
             </ul>
             <hr/>
-            <Route exact path="/" component={Summary}/>
+            <Route exact path="/" component={About}/>
             <Route path="/engineering" component={Profile}/>
             <Route path="/web" component={Work}/>
             <Route path="/hangouts" component={Work}/>
@@ -37,25 +38,6 @@ const educationData = props.jsonObj.education;
             <Route path="/thought" component={Work}/>
           </div>
         </Router>
-
-
-
-
-             <div className="row">
-               <aside className="col-md-4">
-                 <div className="inner">
-                   <Profile profileData={profileData} />
-                 </div>
-               </aside>
-               <main className="col-md-8">
-                <div className="inner">
-                <Summary summaryData={summaryData} />
-                <Work workData={workData} />
-                <TechnicalSkills skillsData={skillsData} />
-                <Education educationData={educationData} />
-                 </div>
-               </main>
-             </div>
            </div>
     );
 }
