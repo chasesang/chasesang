@@ -3,6 +3,7 @@ import FontAwesome from 'react-fontawesome';
 import './App.css';
 import About from './components/About';
 import Profile from './components/Profile';
+import Engineering from './components/Engineering';
 import Summary from './components/Summary';
 import Work from './components/Work';
 import TechnicalSkills from './components/TechnicalSkills';
@@ -31,7 +32,7 @@ const educationData = props.jsonObj.education;
             </ul>
             <hr/>
             <Route exact path="/" component={About}/>
-            <Route path="/engineering" component={Profile}/>
+            <Route path="/engineering" component={Engineering}/>
             <Route path="/web" component={Work}/>
             <Route path="/hangouts" component={Work}/>
             <Route path="/world" component={Work}/>

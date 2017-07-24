@@ -1,11 +1,12 @@
 import React from 'react';
 import Profile from './Profile';
 import Summary from './Summary';
+import Introducation from './Introducation';
 const json = require('../resume.json');
 
 const About = props => {
   const profileData = json.basics;
-  const summaryData = json.summary;
+  const introData = json.basics.introducation;
   return(
     <div className="row">
       <aside className="col-md-4">
@@ -15,7 +16,7 @@ const About = props => {
       </aside>
       <main className="col-md-8">
        <div className="inner">
-       <Summary summaryData={summaryData} />
+       <Introducation introData={introData} />
 
         </div>
       </main>
