@@ -17,17 +17,17 @@ const workData = props.jsonObj.work;
 const skillsData = props.jsonObj.skills;
 const educationData = props.jsonObj.education;
     return (
-      <div className="container">
+
 
         <Router>
-          <div>
-            <ul className="nav navbar-nav">
-              <li><Link to="/">About</Link></li>
-              <li><Link to="/engineering">Engineering</Link></li>
-              <li><Link to="/web">Web Development</Link></li>
-              <li><Link to="/hangouts">Hangouts</Link></li>
-              <li><Link to="/world">Word</Link></li>
-              <li><Link to="/thought">Thought Sketches</Link></li>
+          <nav className="navbar navbar-default">
+            <ul className="">
+              <li><NavLink to="/">About</NavLink></li>
+              <li><NavLink to="/engineering">Engineering</NavLink></li>
+              <li><NavLink to="/web">Web Development</NavLink></li>
+              <li><NavLink to="/hangouts">Hangouts</NavLink></li>
+              <li><NavLink to="/world">Word</NavLink></li>
+              <li><NavLink to="/thought">Thought Sketches</NavLink></li>
             </ul>
             <hr/>
             <Route exact path="/" component={About}/>
@@ -36,9 +36,9 @@ const educationData = props.jsonObj.education;
             <Route path="/hangouts" component={Work}/>
             <Route path="/world" component={Work}/>
             <Route path="/thought" component={Work}/>
-          </div>
+          </nav>
         </Router>
-           </div>
+
     );
 }
 App.propTypes = {

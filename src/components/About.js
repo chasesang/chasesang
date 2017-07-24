@@ -8,12 +8,17 @@ const About = props => {
   const summaryData = json.summary;
   return(
     <div className="row">
-      <aside className="col-md-3">
+      <aside className="col-md-4">
         <div className="inner">
           <Profile profileData={profileData} />
         </div>
       </aside>
+      <main className="col-md-8">
+       <div className="inner">
+       <Summary summaryData={summaryData} />
 
+        </div>
+      </main>
     </div>
   )
 }
