@@ -17,10 +17,12 @@ const Engineering = props => {
 
 
     return (
-      <section className="work">
+      <div className="container-fluid">
+      <section className="work" >
         <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Work experience</h2>
         {getWorkExperience()}
       </section>
+    </div>
     );
 };
 

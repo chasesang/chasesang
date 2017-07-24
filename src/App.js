@@ -21,8 +21,8 @@ const educationData = props.jsonObj.education;
 
 
         <Router>
-          <nav className="navbar navbar-default">
-            <ul className="">
+          <nav>
+            <ul className="navbar navbar-default">
               <li><NavLink to="/">About</NavLink></li>
               <li><NavLink to="/engineering">Engineering</NavLink></li>
               <li><NavLink to="/web">Web Development</NavLink></li>
@@ -30,14 +30,14 @@ const educationData = props.jsonObj.education;
               <li><NavLink to="/world">Word</NavLink></li>
               <li><NavLink to="/thought">Thought Sketches</NavLink></li>
             </ul>
-            <hr/>
+      
             <Route exact path="/" component={About}/>
             <Route path="/engineering" component={Engineering}/>
             <Route path="/web" component={Work}/>
             <Route path="/hangouts" component={Work}/>
             <Route path="/world" component={Work}/>
             <Route path="/thought" component={Work}/>
-          </nav>
+        </nav>
         </Router>
 
     );
