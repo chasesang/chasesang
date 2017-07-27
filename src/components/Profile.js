@@ -8,7 +8,7 @@ const Profile = props => {
         <h1 className="text-center">{profileObj.name}</h1>
 
         <h2 className="text-center">{profileObj.label}
-          
+
         </h2>
           <div className="divider"></div>
 
@@ -29,8 +29,7 @@ const Profile = props => {
                 <a className="fa fa-github fa-2x" href={'https://github.com/' + profileObj.profiles[1].username}></a>
             </li>
         </ul>
-        <div className="divider"></div>
-<p>Never stop learning, because life never stops teaching.</p>
+
     </div>
 };
 

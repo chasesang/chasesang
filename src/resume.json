@@ -6,18 +6,15 @@
     "email": "chase.sang@gmail.com",
     "phone": "4038700889",
     "website": "http://",
-    "introducation": "Hi, I am Chase. Urbanite. Explorer. Pianist. Engineer. Fitness Instructor. Cross-fit hater",
+    "introducation": "Hi, I am Chase. Urbanite. Explorer. Pianist. Engineer. Fitness Instructor. Cross-fit hater. Never stop learning, because life never stops teaching",
     "summary": "A full-stack web  developer with a strong technical background in engineering, and years of project management experience",
     "location": {
-
       "city": "Vancouver",
       "provice": "BC",
       "country": "Canada"
-
     },
     "profiles": [
       {
-
         "network": "facebook",
         "username": "chasesang"
 
