@@ -14,8 +14,6 @@ const Engineering = props => {
         return workItems;
     }
 
-
-
     return (
       <div className="container-fluid">
       <section className="work" >
