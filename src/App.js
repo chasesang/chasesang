@@ -28,16 +28,16 @@ const educationData = props.jsonObj.education;
               <li><NavLink to="/engineering">Engineering</NavLink></li>
               <li><NavLink to="/web">Web Development</NavLink></li>
               <li><NavLink to="/hangouts">Hangouts</NavLink></li>
-              <li><NavLink to="/world">Word</NavLink></li>
-              <li><NavLink to="/thought">Thought Sketches</NavLink></li>
+              <li><NavLink to="/words">Words</NavLink></li>
+              <li><NavLink to="/pictures">Pictures</NavLink></li>
             </ul>
           </nav>
             <Route exact path="/" component={About}/>
             <Route path="/engineering" component={Engineering}/>
             <Route path="/web" component={Work}/>
             <Route path="/hangouts" component={Work}/>
-            <Route path="/world" component={Work}/>
-            <Route path="/thought" component={Work}/>
+            <Route path="/words" component={Work}/>
+            <Route path="/pictures" component={Work}/>
           </div>
         </Router>
 
