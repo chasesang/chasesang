@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Engineering from './components/Engineering';
 import Summary from './components/Summary';
 import Work from './components/Work';
+import Project from './components/Project';
 import TechnicalSkills from './components/TechnicalSkills';
 import Education from './components/Education';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
@@ -15,6 +16,7 @@ const App = props => {
 const profileData = props.jsonObj.basics;
 const summaryData = profileData.summary;
 const workData = props.jsonObj.work;
+const projectData = props.jsonObj.project;
 const skillsData = props.jsonObj.skills;
 const educationData = props.jsonObj.education;
     return (
@@ -34,7 +36,7 @@ const educationData = props.jsonObj.education;
           </nav>
             <Route exact path="/" component={About}/>
             <Route path="/engineering" component={Engineering}/>
-            <Route path="/web" component={Work}/>
+            <Route path="/web" component={Project}/>
             <Route path="/hangouts" component={Work}/>
             <Route path="/words" component={Work}/>
             <Route path="/pictures" component={Work}/>

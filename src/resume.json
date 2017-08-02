@@ -25,6 +25,22 @@
       }
     ]
   },
+  "project": [
+    {
+      "name": "ChaseBoard",
+      "startDate": "2017-05-01",
+      "endDate": "2017-05-30",
+      "summary": "chaseboard blah blah",
+      "highlights": []
+    },
+    {
+      "name": "Van Tech Hub",
+      "startDate": "2013-11-01",
+      "endDate": "2016-09-01",
+      "summary": "chaseboard blah blah",
+      "highlights": []
+    }
+  ],
   "work": [
     {
       "company": "Shell Canada",
