@@ -1,6 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-
 const WorkItem = props => {
     const getWorkDates = () => {
         const startdate = moment(props.workItemData.startDate).format('MMM, YYYY');
@@ -17,7 +16,6 @@ const WorkItem = props => {
     const getHighlights = props.workItemData.highlights.map(function(item, index) {
         return (<li key={index}>{item}</li>)
     });
-
     return (
         <div className="workItem">
           <h3>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3>
