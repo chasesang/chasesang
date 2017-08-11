@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from './Profile';
 import Summary from './Summary';
 import Introducation from './Introducation';
+
 const json = require('../resume.json');
 
 const About = props => {
