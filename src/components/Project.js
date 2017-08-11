@@ -3,7 +3,6 @@ import ProjectItem from './ProjectItem';
 const json = require('../resume.json');
 
 const projectData = json.project;
-
 const Project = props => {
   const getProjectExperience = () => {
     const projectItems = [];
@@ -22,5 +21,4 @@ const Project = props => {
     </section>
   );
 };
-
 export default Project;
