@@ -13,7 +13,6 @@ const Education = props => {
   				</div>
         )
   	});
-
   	return (
   	  <section className="education">
         <h2 className="text-uppercase"><i className="fa fa-lg fa-mortar-board"></i> Education</h2>
