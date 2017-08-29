@@ -19,6 +19,8 @@ const ProjectItem = props => {
       return (<li key={index}>{item}</li>)
   });
 
+
+
   return (
     <div className="projectItem">
       <h3>{props.projectItemData.name}</h3>
